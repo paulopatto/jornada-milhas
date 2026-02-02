@@ -2,8 +2,8 @@
 feature:
  - head-branch: ['^feature', 'feature', 'feat']
 
- chore:
+chore:
  - head-branch: ['^chore', 'chore']
 
- bugfix:
+bugfix:
   - head-branch: ['^fix', 'fix']

@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Catppuccin Macchiato",
   "deno.enablePaths": [
     "supabase/functions"
   ],
@@ -18,6 +19,10 @@
     "fs",
     "http",
     "net"
+  ],
+  "recommendations": [
+    "denoland.vscode-deno",
+    "catppuccin.catppuccin-vsc"
   ],
   "[typescript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"

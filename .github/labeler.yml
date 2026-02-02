@@ -7,3 +7,15 @@ chore:
 
 bugfix:
   - head-branch: ['^fix', 'fix']
+  
+# Add 'Documentation' label to any changes within 'docs' folder or any subfolders
+documentation:
+- changed-files:
+  - any-glob-to-any-file: docs/**
+  - any-glob-to-any-file: '**/*.md'
+  - head-branch: ['doc']
+
+
+ci:
+- changed-files:
+  - any-glob-to-any-file: .github/**
